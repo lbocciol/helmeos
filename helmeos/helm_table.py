@@ -1,7 +1,7 @@
 import numpy as np
 import os
-from . import table_param as tab
-from .phys_const import kerg, kergavo, avo, asoli3, sioncon, third, forth, pi, esqu, \
+import table_param as tab
+from phys_const import kerg, kergavo, avo, asoli3, sioncon, third, forth, pi, esqu, \
     a1, a2, b1, b2, c1, c2, d1, e1, light2, clight
 
 _default_fn = os.path.join(os.path.dirname(os.path.abspath(__file__)), "helm_table.dat")
